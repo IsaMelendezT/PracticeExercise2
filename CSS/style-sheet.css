@@ -67,6 +67,20 @@ body ul {
     list-style-type: none;
 }
 
+/*Styling table element*/
+#table_countries {
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+    height: 10em;
+}
+
+#table_countries,
+th,
+td {
+    border: 1.2px solid rgb(73, 95, 88, 1);
+}
+
 
 /* Media query for tablets*/
 @media only screen and (min-width: 768px) {
