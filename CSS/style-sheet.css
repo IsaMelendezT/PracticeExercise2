@@ -113,7 +113,7 @@ td {
 }
 
 /* Media query for desktop*/
-@media (min-width: 1025px) {
+@media (min-width: 1216px) {
 
     figure {
         text-align: center ;
