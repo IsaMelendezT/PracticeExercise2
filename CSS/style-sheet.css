@@ -1,7 +1,6 @@
-
-
 /* Box Model*/
 
+/* Styling box model for header, footer and nav elements*/
 header, footer, nav {
     border-radius: 0.5em;
     margin-top: 0.5em;
@@ -9,6 +8,7 @@ header, footer, nav {
     background-color: #7b7da6;
 }
 
+/* Styling box model for body container elements*/
 .body-container {
     margin-top: 1em;
     padding-top: 0.5%;
@@ -23,15 +23,15 @@ body {
     background-color:#ccd9d4;
 }
 
-
+/* Styling box model for img element*/
 img {
     max-width: 100%;
     border-radius: 0.5em;
 }
 
-
-
 /* Text styling*/ 
+
+/* Styling text for body components*/
 .body-container {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
@@ -43,13 +43,14 @@ body i{
     font-size: 4em;
 }
 
-
+/* Styling text for header, footer, nav elements*/
 header, footer, nav, nav a {
     text-align: center;
     color:white;
     text-decoration: none;
 }
 
+/* Styling anchor type elements*/
 nav a:hover {
     color: darksalmon;
 }
@@ -67,6 +68,7 @@ body ul {
 }
 
 
+/* Media query for tablets*/
 @media only screen and (min-width: 768px) {
 
     #profile{
@@ -95,6 +97,7 @@ body ul {
 
 }
 
+/* Media query for desktop*/
 @media only screen and (min-width: 920px) {
 
     figure {
