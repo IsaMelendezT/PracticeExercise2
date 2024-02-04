@@ -1,7 +1,110 @@
-body {
-    background-color: bisque;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    text-align: center;
+
+
+/* Box Model*/
+
+header, footer, nav {
+    border-radius: 0.5em;
+    margin-top: 0.5em;
+    opacity: 0.8;
+    background-color: #7b7da6;
 }
 
+.body-container {
+    margin-top: 1em;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(167, 196, 186);
+}
+
+body {
+    background-color:#ccd9d4;
+}
+
+
+img {
+    max-width: 100%;
+    border-radius: 0.5em;
+}
+
+
+
+/* Text styling*/ 
+.body-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 0.5;
+}
+
+body i{
+    font-size: 4em;
+}
+
+
+header, footer, nav, nav a {
+    text-align: center;
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darksalmon;
+}
+
+nav a {
+    padding-left : 3%;
+}
+
+nav {
+    font-size: 2em;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    #profile{
+        width: 30%;
+        float: left;
+    }
+
+    #job{
+        width: 68%;
+        margin-left: 32%;
+    }
+
+    .hobbies-icon {
+        width: 33%;
+        float: left;
+    }
+
+    body figure img{
+        width: 48%;
+        margin-left: 1%;
+    }
+
+    footer {
+        clear: both;
+    }
+
+}
+
+@media only screen and (min-width: 920px) {
+
+    figure {
+        text-align: center ;
+    }
+
+    body figure img{
+        width: 32%;
+        margin-left: 1%;
+        margin-top: 1%
+    }
+
+}
