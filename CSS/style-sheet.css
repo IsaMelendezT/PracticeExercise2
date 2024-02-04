@@ -84,7 +84,7 @@ td {
 
 
 /* Media query for tablets*/
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
 
     #profile{
         width: 30%;
@@ -113,7 +113,7 @@ td {
 }
 
 /* Media query for desktop*/
-@media only screen and (min-width: 920px) {
+@media (min-width: 1025px) {
 
     figure {
         text-align: center ;
